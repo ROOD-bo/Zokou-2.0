@@ -7,32 +7,32 @@
   "succes_url":"/",
   "stack":"container",
   "env":{
-    "PREFIXE":
+    "PREFIXE":.
     {
       "description":"choisissez votre préfixe",
       "value":"#",
       "required":true
     },
-    "LECTURE_AUTO_STATUS":
+    "LECTURE_AUTO_STATUS":oui
     {
       "description":"le bot lira tous les status automatiquement (oui pour activer et non pour désactiver)",
       "value":"oui",
       "required":false
-    }, "TELECHARGER_AUTO_STATUS":
+    }, "TELECHARGER_AUTO_STATUS":oui
     {
       "description":"le bot téléchargera tous les status automatiquement (oui pour activer et non pour désactiver)",
       "value":"oui",
       "required":false
     }
     ,
-    "NOM_BOT" : {
+    "NOM_BOT" : {zokou1
        
       "description":"Un nom pour votre bot",
       "value":"Zokou-MD",
       "required":false
 
     } ,
-     "LIENS_MENU" : {
+     "LIENS_MENU" : {1
     
       "description":"Ajoutez un ou plusieurs lien(s) d'image ou de video pour votre bot ; exemple : lien1,lien2,lien3......",
       "value":"https://wallpapercave.com/uwp/uwp3943464.jpeg",
@@ -40,14 +40,14 @@
        
      },
 
-     "PM_PERMIT" :
+     "PM_PERMIT" :oui
      {
       "description":"Les commandes seront pas fonctionnelles en priver pour les autres utilisateurs (oui pour activer et non pour désactiver)",
       "value":"non",
       "required":false
     }
     ,
-    "MODE_PUBLIC":
+    "MODE_PUBLIC":non
     {
       "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
       "value":"oui",
@@ -68,21 +68,21 @@
 		  "value":"1",
 		  "required": false
 	  },
-    "SESSION_ID":
+    "SESSION_ID":Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWU1ORS9HRS8xZ3ZQQjdtR1pCVG8xQXhjbk5NaEpHMVJJY2VBcEU5ZC9GYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQm93MS9pcGRhOTlRMU00b254NVlHaTVRc3dFOGhrMnZPa0JKMytNUzFWaz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzSVNWQ2xQTVNyMUsyQTNvNEVtb3JFeUhWNmR3S0UvYW80WFpVcHZNb0hvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIyUWRaVVNOdUswTnhHOVNHVTFqbE1iUm9ycWJINEhCMDJ3dTd5aXh5U0h3PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdEWXZBcnNuOVNLOGhubnVvcEdWN0R6bVpxOUhIOG1BNUlob21JMzRMMnM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjdqeXZqczZIWDhvVEJFL1ZMaXpUUWZCQ0dabk4reGZsOVRlZE1tVjRJMHc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUIxcUIzNm9meTZ2MDE3OHdJakg5QThYSDdwdWhGanRTRGxob2NxWjhsYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZytrTFJGL0wwZlkxdjVrbWp4WVpqQURUbFhnN2VZczU5YmdZekVTblRFVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImRKbkZTM0tMN0UxWHhEN0RzdW9ZMm9meFhISkQvZVZJbXYyYXZkVGdZZk4yU2wvSmErcThRdzF5NWNtV081dmZiKzRhdnBRdmlYWDdrMmNsUFdTTENRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjMwLCJhZHZTZWNyZXRLZXkiOiJiSndZTGgvWk0zckNBcFEydFZSWXlvSFFaek9YMXUvT1E1OTM3cWR4REZrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiJZWDdOSDhFNyIsImxhc3RQcm9wSGFzaCI6Im5tM0JiIiwicm91dGluZ0luZm8iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQVVJQ0E9PSJ9LCJtZSI6eyJpZCI6IjUwOTM3NTI5MTk0OjcyQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IvCdkarwnZG58J2RrPCdkb3wnZGw8J2Ru/CdkbYg8J2auPCdmqvwnZq48J2QmCDwnZqq8J2ar/Cdmq/wnZCDIPCdmqnwnZCU8J2au/CdmrvwnZq18J2aqvCdkIXwnZCL8J2QmMK54oG2IiwibGlkIjoiMTE4MzIyNjkxNTg4MzE0OjcyQGxpZCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSzZDbUs0SEVPcjBtYjBHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiTWpsb3EvSWFKb2ZxTmREc25ZNjFxMnBLSWxsbnZnRytrbm9iT2praWRpRT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiVmhnRHlVVlB2T1RJYWZ0MFBNV3ZySUdXYzllQyszNTVVNXZSdml4V2tlWjErbG05MGJldHNlMUZPR2NSVWpmWjJNakQvdTJSSU9pcTJ2b1V0bjJmQmc9PSIsImRldmljZVNpZ25hdHVyZSI6IlNSTGVtSmhYSGk5cGRTMkVVd1I5UzlhTWpOT3RFRmp0QXcwdUdyYmVYQlZOdCszYVdpUWV5RjdmMlNmS3BObE5WMS9DZ3oveVBJS2ZoY0w3TlNqc0R3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiNTA5Mzc1MjkxOTQ6NzJAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVEk1YUt2eUdpYUg2alhRN0oyT3RhdHFTaUpaWjc0QnZwSjZHem81SW5ZaCJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTczODk2MzU2NSwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFNYWUifQ==
     {
       "description":"veuillez renseigner votre id de session",   
       "value":"",
       "required":true
       
     },
-    "NOM_OWNER":
+    "NOM_OWNER":rood
     {
     
     "description": "Votre nom",
     "required": false,
     "value": "Djalega++"
   },
-    "NUMERO_OWNER":
+    "NUMERO_OWNER":50937529194
   {
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
@@ -97,13 +97,13 @@
     "required": false,
     "value": "3"
   },
-  "STARTING_BOT_MESSAGE":
+  "STARTING_BOT_MESSAGE":oui
   {
     "description": "Mettez oui si vous voulez avoir le message du bot qu'il vous envoie en pv ou non si vous en voulez pas",
     "required": true,
     "value": "oui"
   },
-  "ANTI_DELETE_MESSAGE":
+  "ANTI_DELETE_MESSAGE":non
   {
     "description": "Mettez oui si vous voulez que les message supprimer vous sois envoyez en pv",
     "required": false,
